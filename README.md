@@ -10,35 +10,21 @@ The FitzHugh-Nagumo model is a well-known framework for studying excitable media
 How do the regular and mass-conserved FitzHugh-Nagumo systems differ in their local dynamics and the formation of spatial wave patterns?
 
 ## Getting Started
-### 1. Formulating the Models
-- **Regular FHN system:**
-  \[\frac{\partial u}{\partial t} = f(u,v) + D_u \nabla^2 u\]
-  \[\frac{\partial v}{\partial t} = \epsilon g(u,v) + D_v \nabla^2 v\]
-  where:
-  - \( u \) and \( v \) are the activator and inhibitor fields.
-  - \( D_u \) and \( D_v \) are diffusion coefficients.
-  - \( f(u,v) = u - \frac{u^3}{3} - v \)
-  - \( g(u,v) = u + a - bv \)
-
-- **Mass-conserved FHN system:**
-  \[\frac{\partial u}{\partial t} = -\nabla^2[f(u,v) + D_u \nabla^2 u]\]
-  \[\frac{\partial v}{\partial t} = -\nabla^2[\epsilon g(u,v) + D_v \nabla^2 v]\]
-
-### 2. Local Dynamics Analysis
+### 1. Local Dynamics Analysis
 Perform a linear stability analysis of the homogeneous steady states for both models, identifying key differences in stability and bifurcation behavior.
 
-### 3. Spatial Pattern Formation
+### 2. Spatial Pattern Formation
 Simulate spatially extended versions of both models to explore wave propagation and pattern formation using numerical methods such as:
 - Finite difference methods
 - Spectral methods
 
-### 4. Comparing Dynamics
+### 3. Comparing Dynamics
 Investigate how mass conservation influences:
 - Wave speed and shape
 - Onset of instability and pattern wavelength
 - Robustness to parameter variations
 
-### 5. Connection to Active Matter
+### 4. Connection to Active Matter
 Discuss the implications of mass conservation in the FHN model for active matter systems, highlighting similarities to the non-reciprocally coupled Cahn-Hilliard equation.
 
 ## Suggested Analyses
