@@ -1,4 +1,4 @@
-# README: FitzHugh-Nagumo Model Simulation
+# Dynamics and Waves in Regular vs. Mass Conserved FitzHugh-Nagumo Systems
 
 ## Overview
 This repository contains code for simulating and analyzing the dynamics of the FitzHugh-Nagumo (FHN) system, both in its regular form and a mass-conserved variant. These models are widely used to study excitable systems, such as neural activity and chemical oscillations. The code here allows users to explore how conservation laws affect wave propagation and pattern formation.
