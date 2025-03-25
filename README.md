@@ -1,51 +1,63 @@
-# Comparing Dynamics in Regular and Mass-Conserved FitzHugh-Nagumo Systems
+# README: FitzHugh-Nagumo Model Simulation
 
-## Project Overview
-This project explores the differences in local dynamics and spatial wave pattern formation between the regular and mass-conserved FitzHugh-Nagumo (FHN) systems. The FHN model is a fundamental system used to study excitable dynamics, with applications in neuroscience, chemical oscillations, and active matter physics. By analyzing how mass conservation influences pattern formation, this project aims to provide insights into the broader implications for active matter systems.
+## Overview
+This repository contains code for simulating and analyzing the dynamics of the FitzHugh-Nagumo (FHN) system, both in its regular form and a mass-conserved variant. These models are widely used to study excitable systems, such as neural activity and chemical oscillations. The code here allows users to explore how conservation laws affect wave propagation and pattern formation.
 
-## Motivation
-The FitzHugh-Nagumo model is a well-known framework for studying excitable media. Recent research has highlighted the role of conservation laws in shaping dynamical behavior, particularly in active matter systems that exhibit non-reciprocal and non-equilibrium interactions. The mass-conserved version of the FHN model shares mathematical similarities with the non-reciprocally coupled Cahn-Hilliard equation, making it an ideal candidate for studying the effects of conservation laws on pattern formation.
-
-## Main Question
-How do the regular and mass-conserved FitzHugh-Nagumo systems differ in their local dynamics and the formation of spatial wave patterns?
+## Features
+- Implements both the **regular** and **mass-conserved** FitzHugh-Nagumo equations.
+- Provides numerical solvers for simulating spatiotemporal dynamics.
+- Includes tools for **stability analysis**, **bifurcation studies**, and **pattern formation exploration**.
+- Supports **finite difference** and **spectral methods** for solving the equations.
 
 ## Getting Started
-### 1. Local Dynamics Analysis
-Perform a linear stability analysis of the homogeneous steady states for both models, identifying key differences in stability and bifurcation behavior.
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-repo-name.git
+cd your-repo-name
+```
 
-### 2. Spatial Pattern Formation
-Simulate spatially extended versions of both models to explore wave propagation and pattern formation using numerical methods such as:
-- Finite difference methods
-- Spectral methods
+### 2. Install Dependencies
+Ensure you have Python and the required numerical libraries installed:
+```bash
+pip install numpy scipy matplotlib
+```
 
-### 3. Comparing Dynamics
-Investigate how mass conservation influences:
-- Wave speed and shape
-- Onset of instability and pattern wavelength
-- Robustness to parameter variations
+### 3. Running Simulations
+- To simulate the **regular** FHN system:
+  ```bash
+  xx
+  ```
+- To simulate the **mass-conserved** FHN system:
+  ```bash
+  xx
+  ```
 
-### 4. Connection to Active Matter
-Discuss the implications of mass conservation in the FHN model for active matter systems, highlighting similarities to the non-reciprocally coupled Cahn-Hilliard equation.
+### 4. Visualization
+The scripts generate plots of **wave dynamics**, **pattern formation**, and **bifurcation structures**. Results are saved in the `results/` folder.
 
-## Suggested Analyses
-- Compare bifurcation structures (Hopf and Turing bifurcations) between the two models.
-- Analyze the robustness of wave patterns to noise and parameter perturbations.
+## Code Structure
+- `code/` - Contains implementation of the FHN models and solvers.
+- `data/` - Stores simulation results.
+- `docs/` - Includes theoretical background and documentation.
+- `results/` - Holds output visualizations from simulations.
 
-## Conclusion
-This project provides an opportunity to study the impact of conservation laws on excitable dynamics and pattern formation. By comparing the regular and mass-conserved FHN systems, we gain deeper insights into the fundamental mechanisms governing pattern emergence, with potential applications to active matter and beyond.
+## Analysis and Interpretation
+### Stability Analysis
+Perform a **linear stability analysis** to identify bifurcation points and determine how parameters affect system behavior.
 
-## Repository Structure
-- `code/` - Numerical simulations and analysis scripts
-- `data/` - Example datasets from simulations
-- `docs/` - Notes, references, and project documentation
-- `results/` - Generated figures and findings
+### Pattern Formation
+Simulate spatially extended versions of the models to investigate:
+- Wave speed and shape differences.
+- The onset of instability and spatial patterns.
+- The impact of mass conservation on robustness and structure formation.
 
 ## References
-- [Physics Reports 2024](#)
-- [Physical Review X 2024](#)
+- Physics Reports (2024) – Review on FHN dynamics.
+- Physical Review X (2024) – Study on non-reciprocal pattern formation.
 
----
-**Author:** [Your Name]  
-**License:** [MIT/Other]  
-**Contact:** [Your Email]
+## Contributing
+If you’d like to contribute, feel free to fork the repository and submit a pull request.
+
+## Contact
+For questions or collaboration inquiries, reach out via email at [Your Email].
 
