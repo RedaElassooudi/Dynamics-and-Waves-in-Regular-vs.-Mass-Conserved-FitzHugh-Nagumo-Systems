@@ -1,0 +1,1 @@
+# Dynamics-and-Waves-in-Regular-vs.-Mass-Conserved-FitzHugh-Nagumo-Systems
