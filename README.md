@@ -22,7 +22,20 @@ Ensure you have Python and the required numerical libraries installed:
 pip install numpy scipy matplotlib
 ```
 
+Using conda:
+```bash
+conda conda env create -f environment.yml
+```
+
 ### 3. Running Simulations
+Enter the environment:
+```bash
+conda activate fhn
+```
+
+Run the simulation by executing the sim.ipynb notebook
+
+#### For later?
 - To simulate the **regular** FHN system:
   ```bash
   xx
